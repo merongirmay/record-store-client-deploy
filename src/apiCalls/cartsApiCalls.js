@@ -6,6 +6,7 @@ axios.defaults.withCredentials = true;
 export const addCartItem = async (
   dispatchCarts,
   cartsState,
+  record,
   /* -------------------------------------------------------------------------- */
   cartId
 ) => {
